@@ -1,0 +1,8 @@
+<ul>
+{{#each posts}}
+    <li>
+    	<h2><a href="{{ postLink this }}">{{ this.title }}</a></h2>
+    	<small>{{ this.shortDescription }}</small>
+    </li>
+{{/each}}
+</ul>
